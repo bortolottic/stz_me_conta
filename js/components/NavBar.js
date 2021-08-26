@@ -55,10 +55,10 @@ class NavBar extends React.Component {
 							<span class="iconify" data-icon="ant-design:notification-outline" data-inline="false"></span>
 							NPS
 						</NavLink>
-						<NavLink activeClassName="active" to="/satisfacao/" class="menu-item">
+						{/* <NavLink activeClassName="active" to="/satisfacao/" class="menu-item">
 							<span class="iconify" data-icon="ant-design:smile-outline" data-inline="false"></span>
 							SATISFAÇÃO
-						</NavLink>
+						</NavLink> */}
 						<NavLink activeClassName="active" to="/tmr/" class="menu-item">
 							<span class="iconify" data-icon="ant-design:clock-circle-outline" data-inline="false"></span>
 							TMR
