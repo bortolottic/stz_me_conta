@@ -1022,7 +1022,7 @@ class BoxKPI extends React.Component {
             <div class="boxes">
                 <div class="dashboard-box-container">
                     <KPI value={this.state.tmrNumber.value} color={this.state.tmrNumber.color} icon="ant-design:clock-circle-outline" inline="false" desc="TMR"></KPI>
-                    <KPI value={this.state.unsatisfiedDayNumber.value} color={this.state.unsatisfiedDayNumber.color} icon="ant-design:dislike-outline" inline="false" desc="MD INSAT./DIA"></KPI>
+                    <KPI value={this.state.unsatisfiedDayNumber.value} color={this.state.unsatisfiedDayNumber.color} icon="ant-design:dislike-outline" inline="false" desc="MD DETRATORES DIA"></KPI>
                     <KPI value={this.state.semPesquisaNumber} icon="ant-design:close-circle-outline" inline="false" desc="S/ PESQ. ONTEM"></KPI>
                 </div>
 
