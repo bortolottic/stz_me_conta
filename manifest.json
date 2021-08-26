@@ -1,0 +1,23 @@
+{
+    "short_name": "MeConta",
+    "name": "MeConta",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "./images/meconta-icon.png",
+            "type": "image/png",
+            "size": "48x48"
+        },
+        {
+            "src": "./images/meconta-icon.png",
+            "type": "image/png",
+            "size": "96x96"
+        },
+        {
+            "src": "./images/meconta-icon.png",
+            "type": "image/png",
+            "size": "192x192"
+        }
+    ],
+    "start_url": "home.html?launcher=true"
+}
