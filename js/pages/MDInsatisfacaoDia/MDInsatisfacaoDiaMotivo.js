@@ -811,11 +811,11 @@ class MDInsatisfacaoDiaMotivo extends React.Component {
     let table = "";
     let kpi = "";
     let dropdownNavOptions = [
-      { name: "MD INSAT./DIA", path: "/md-insatisfacao-dia"},
+      { name: "MD DETRATORES DIA", path: "/md-insatisfacao-dia"},
       { name: "TIPOS DE INSATISFAÇÃO", path: "/tipos-insatisfacao"}
     ];
     
-    let dropdownNav = <DropdownNav  activeNav="MD INSAT./DIA" locationParams={this.props.props} options={dropdownNavOptions}></DropdownNav>;
+    let dropdownNav = <DropdownNav  activeNav="MD DETRATORES DIA" locationParams={this.props.props} options={dropdownNavOptions}></DropdownNav>;
     
     if(this.state.percentage) {
       kpi = <FeaturedKPI color={this.state.percentage.color} number={this.state.percentage.value}  bottomElement={dropdownNav} />

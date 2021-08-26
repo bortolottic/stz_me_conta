@@ -375,6 +375,7 @@ class Home extends React.Component {
 			}
 		};
 		
+		/*
 		let satisfactionGaugeHCDefinition =  {
 			"qStateName": "",
 			"qDimensions": [],
@@ -564,6 +565,7 @@ class Home extends React.Component {
 				satisfactionGaugeData
 			})
 		})
+		*/
 
 		this.props.app.createCube(npsGaugeHCDefinition, (res) => {
 			let data = res.qHyperCube.qDataPages[0];
@@ -642,7 +644,7 @@ class Home extends React.Component {
 				{featuredKpi}
 				<div class="conteudo">
 					<div class="dashboard-pie-charts">
-						<GaugeChart id="pie1" data={this.state.satisfactionGaugeData}/>
+						{/* <GaugeChart id="pie1" data={this.state.satisfactionGaugeData}/> */}
 						<GaugeChart id="pie2" data={this.state.npsGaugeData}/>
 					</div>
 				</div>

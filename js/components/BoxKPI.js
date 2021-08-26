@@ -1028,9 +1028,9 @@ class BoxKPI extends React.Component {
 
 
                 <div class="dashboard-box-container">
-                    <KPI iconPosition="top" iconColor="#44ae86" value={this.state.verySatisfiedNumber} icon="ant-design:smile-fill" inline="false" desc="MUITO SATISFEITO"></KPI>
-                    <KPI iconPosition="top" iconColor="#ebeb2b" value={this.state.satisfiedNumber} icon="ant-design:meh-fill" inline="false" desc="SATISFEITO"></KPI>
-                    <KPI iconPosition="top" iconColor="#ce4753" value={this.state.unsatisfiedNumber} icon="ant-design:frown-fill" inline="false" desc="INSATISFEITO"></KPI>
+                    <KPI iconPosition="top" iconColor="#44ae86" value={this.state.verySatisfiedNumber} icon="ant-design:smile-fill" inline="false" desc="PROMOTORES"></KPI>
+                    <KPI iconPosition="top" iconColor="#ebeb2b" value={this.state.satisfiedNumber} icon="ant-design:meh-fill" inline="false" desc="NEUTROS"></KPI>
+                    <KPI iconPosition="top" iconColor="#ce4753" value={this.state.unsatisfiedNumber} icon="ant-design:frown-fill" inline="false" desc="DETRATORES"></KPI>
                 </div>
             </div>
 

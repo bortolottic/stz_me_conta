@@ -735,9 +735,8 @@ class SatisfacaoPorDia extends React.Component {
         
 		let dropdownNavOptions = [
 			{ name: "NPS", path: "/nps"},
-			{ name: "SATISFAÇÃO", path: "/satisfacao"},
 			{ name: "TMR", path: "/tmr"},
-			{ name: "MD INSAT./DIA", path: "/md-insatisfacao-dia"},
+			{ name: "MD DETRATORES DIA", path: "/md-insatisfacao-dia"},
 			{ name: "TIPOS DE INSATISFAÇÃO", path: "/tipos-insatisfacao"}
 		];
 
