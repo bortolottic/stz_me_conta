@@ -27,6 +27,7 @@ class KPI extends React.Component {
         switch (this.props.iconPosition) {
             case "top":
                 containerClass = "box-dashboard-satisf";
+                containerClass = "box-dashboard";
                 break;
             default:
                 containerClass = "box-dashboard";

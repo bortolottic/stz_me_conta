@@ -914,7 +914,7 @@ class MDInsatisfacaoDiaData extends React.Component {
     let kpi = "";
     let backLink = '/'+this.props.props.match.params.regional;
     let breadcrumb = <div class="breadcrumb-container">
-                      <BreadCrumb breadlevel="MD. INSATISFAÇÃO/DIA" link="/" />
+                      <BreadCrumb breadlevel="MD DETRATORES DIA" link="/" />
                       <BreadCrumb breadlevel={this.props.props.match.params.regional} link={backLink}/>
                       <BreadCrumb breadlevel={this.props.props.match.params.loja} />
                   </div>
@@ -927,7 +927,7 @@ class MDInsatisfacaoDiaData extends React.Component {
 
     if(this.props.dataSemLoja) {      
 			breadcrumb = <div class="breadcrumb-container">
-                      <BreadCrumb breadlevel="MD. INSATISFAÇÃO/DIA" link="/" />
+                      <BreadCrumb breadlevel="MD DETRATORES DIA" link="/" />
                       <BreadCrumb breadlevel={this.props.props.match.params.regional} link={backLink}/>
                       <BreadCrumb breadlevel={"DETALHE-DIA"} />
                     </div>

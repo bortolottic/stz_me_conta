@@ -65,7 +65,7 @@ class NavBar extends React.Component {
 						</NavLink>
 						<NavLink activeClassName="active" to="/md-insatisfacao-dia/" class="menu-item">
 							<span class="iconify" data-icon="ant-design:dislike-outline" data-inline="false"></span>
-							MD INSTAR./DIA
+							MD DETRATORES DIA
 						</NavLink>
 						<NavLink activeClassName="active" to="/tipos-insatisfacao/" class="menu-item">
 							<span class="iconify" data-icon="ant-design:tags-outline" data-inline="false"></span>

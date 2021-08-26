@@ -821,7 +821,7 @@ class MDInsatisfacaoDiaLoja extends React.Component {
 		let table = "";
     let kpi = "";
     let breadcrumb = <div class="breadcrumb-container">
-                      <BreadCrumb breadlevel="MD. INSATISFAÇÃO/DIA" link="/" />
+                      <BreadCrumb breadlevel="MD DETRATORES DIA" link="/" />
                       <BreadCrumb breadlevel={this.props.props.match.params.regional} />
                     </div>
     let dropdownSkipPageOptions = [
@@ -832,7 +832,7 @@ class MDInsatisfacaoDiaLoja extends React.Component {
     
     if(this.props.directLoja) {
       breadcrumb = <div class="breadcrumb-container">
-              <BreadCrumb breadlevel="MD. INSATISFAÇÃO/DIA" link="/" />
+              <BreadCrumb breadlevel="MD DETRATORES DIA" link="/" />
               <BreadCrumb breadlevel="Loja" />
             </div>
 
