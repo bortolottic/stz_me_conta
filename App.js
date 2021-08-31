@@ -63,8 +63,8 @@ class App extends React.Component {
   onMessage(state){
     window.app = state.meContaApp;
     app.model.enigmaModel.evaluateEx('=Max({<[Data Corte]=>}[Data Corte])').then((res) => {
-      state.meContaApp.field("Data Corte").selectValues([res.qNumber]).then(() => {
-        state.meContaApp.field("Pesquisa").selectValues(['NPS Ajustado'], true, true).then(() => {
+      return state.meContaApp.field("Data Corte").selectValues([res.qNumber]).then(() => {
+        return state.meContaApp.field("Pesquisa").selectValues(['NPS Ajustado'], true, true).then(() => {
           this.setState(state);
         })
       })
